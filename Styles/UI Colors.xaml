@@ -1,0 +1,38 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:helpers="clr-namespace:TestTask_Somnium.Core.Helpers" xmlns:emoji="clr-namespace:Emoji.Wpf;assembly=Emoji.Wpf">
+    
+    <LinearGradientBrush x:Key="SelectedContact_BorderBrush">
+        <GradientStop Offset="0" Color="#6fc9fc"/>
+        <GradientStop Offset="1" Color="#6fc9fc"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="MouseOverContact_BackgroundBrush">
+        <GradientStop Offset="1" Color="#6fc9fc"/>
+        <GradientStop Offset="0" Color="#6fc9fc"/>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="Message_BorderBrush">
+        <GradientStop Offset="1" Color="#2f2f2f"/>
+        <GradientStop Offset="0" Color="#3e3d42"/>
+    </LinearGradientBrush>
+
+    <SolidColorBrush Color="#161616" x:Key="Message_BackgroundBrush"/>
+    <SolidColorBrush Color="White" x:Key="Message_ForegroundBrush"/>
+    <SolidColorBrush Color="White" x:Key="Title_ForegroundBrush"/>
+    <SolidColorBrush Color="#292929" x:Key="ApplicationBackground"/>
+    <SolidColorBrush Color="#29293c" x:Key="ContactBackground"/>
+    <SolidColorBrush Color="#2f4d76" x:Key="ContactBackground_Selected"/>
+    <SolidColorBrush Color="#09365f" x:Key="ContactMessageCounter_Background"/>
+    <SolidColorBrush Color="#244b72" x:Key="ContactMessageCounter_Border"/>
+    <SolidColorBrush Color="#6ed57f" x:Key="PhotoBackground"/>
+    <SolidColorBrush Color="#1b1c1f" x:Key="Background"/>
+
+    <SolidColorBrush Color="Black" x:Key="MessageBox_BackgroundBrush"/>
+    <SolidColorBrush Color="White" x:Key="MessageBox_TextBrush"/>
+    <SolidColorBrush Color ="#131B29" x:Key="MessageBox_ButtonsBackground"/>
+
+    <SolidColorBrush Color="DarkSlateGray" x:Key="ScrollBar_BackgroundBrush"/>
+    <SolidColorBrush Color="#6fc9fc" x:Key="ScrollBar_brush"/>
+
+
+
+</ResourceDictionary>

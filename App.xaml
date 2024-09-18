@@ -1,0 +1,19 @@
+﻿<Application x:Class="TestTask_Somnium.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:TestTask_Somnium"
+             StartupUri=".\MVVM\View\MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source=".\Styles\UI Colors.xaml"/>
+                <ResourceDictionary Source=".\styles\ScrollBars.xaml"/>
+                <ResourceDictionary Source=".\styles\ContactsContainer.xaml"/>
+                <ResourceDictionary Source=".\styles\ChatMessage.xaml"/>
+                <ResourceDictionary Source=".\styles\MessageBox.xaml"/>
+                <ResourceDictionary Source=".\styles\MessagesContainer.xaml"/>
+                <ResourceDictionary Source=".\styles\Application Title.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
